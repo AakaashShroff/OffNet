@@ -1,3 +1,12 @@
+OffNet aims to be the ultimate open source project for communication and transactions between people. It sure is an ambitious project and it has three major goals:
+- Own your data
+- Own your privacy
+- Own your money
+
+Anyone willing to contribute to this project by improving the code's efficiency, security or bring in new ideas or work on the ones mentioned below is welcomed.
+
+Below is the tutorial to setup the current developed version:
+-----------------------------------------------------------------
 Using the table below, create the connection between the ESP8266 and the LoRa SX1278 module:
 
 Here is the wiring information in a table format:
