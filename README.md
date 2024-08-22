@@ -26,3 +26,17 @@ Here is the wiring information in a table format:
 Output (This is a demo conversation using two hubs(ESP8266+LoRa) and two nodes(computers)): 
 
 ![output](https://github.com/user-attachments/assets/9040f8ea-9888-482a-96d2-92e5a5ecce98)
+
+
+Further ideas:
+- Message not meant for that hub should be retransmitted by that hub
+- Use neighbouring tables to find nearby hubs to find a path to a node/hub far away
+- Use of end-to-end encryption for communication (Right now there is a limitation as the get request does not take the full encrypted message from node to hub due to the limit, need to make it a post request)
+- Once the above is completed, ideas on expanding further to add voice/media transmission
+
+  Extra ideas to implement on this:
+  - A stable crypto coin that beats inflation to keep transaction anonymous and retain value.
+  - Stable, i.e, $100 = 100 coin (newly generated)
+  - Beats inflation, i.e, algorithm increases price of coin every year to keep up with inflation, i.e, next year, eg: $108 = 100 new coin.
+  - Adding a lending system so people can borrow/earn money in coin.
+  - If coin is valued by people, it will be the best currency as it would beat inflation, be digital and have anonymity. 
