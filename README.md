@@ -21,6 +21,8 @@ Here is the wiring information in a table format:
 - In the node.py file, in the phonebook you can add usernames with their predifined user_ids and esp hub ids to communicate with just usernames. (This is something like a DNS)
 - Run the node.py file, Enter the username you want to chat with and send the message.
 
+- The data packets are of the format : SenderUserID:SenderESP_ID:ReceiverUserID:ReceiverESP_ID:Message
+
 Output (This is a demo conversation using two hubs and two nodes(computers)): 
 
 ![output](https://github.com/user-attachments/assets/9040f8ea-9888-482a-96d2-92e5a5ecce98)
